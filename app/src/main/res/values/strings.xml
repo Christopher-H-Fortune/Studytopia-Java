@@ -1,0 +1,94 @@
+<resources>
+    <string name="app_name">Studytopia</string>
+    <string name="study_group_logo">Studytopia Logo</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="don_t_have_an_account_click_here">Don\'t Have an Account? Tap Here.</string>
+    <string name="create_account">Create Account</string>
+    <string name="verify_password">Verify Password</string>
+    <string name="username">Username</string>
+    <string name="last_name">Last Name</string>
+    <string name="first_name">First Name</string>
+    <string name="user_profile_image">User Profile Image</string>
+    <string name="reset_text">Please enter your account email to reset your password. A reset link will be sent to the account email entered if an account was found.</string>
+    <string name="send_email">Send Email</string>
+    <string name="title_activity_public_flashcards">PublicFlashcardsActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="profile">Profile</string>
+    <string name="study_group_map">Study Group Map</string>
+    <string name="study_group">Study Group</string>
+    <string name="topic_of_the_day">Topic of the Day</string>
+    <string name="forums">Forums</string>
+    <string name="public_flashcards">Public Flashcards</string>
+    <string name="flashcards">Flashcards</string>
+    <string name="logout">Logout</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="save">Save</string>
+    <string name="bio">Bio</string>
+    <string name="done">Done</string>
+    <string name="created_by">Created By:</string>
+    <string name="create_study_group">Create Study Group</string>
+    <string name="join_study_group">Join Study Group</string>
+    <string name="leave">Leave</string>
+    <string name="add_test">Add Test</string>
+    <string name="save_test">Save Test</string>
+    <string name="flashcardCount">Flashcard Count: %1$d</string>
+    <string name="add_question">Add Question</string>
+    <string name="forgot_password_message">Please enter email to reset your password. A reset link will be sent to the email entered if an account was found.</string>
+    <string name="forgot_password">Forgot Password</string>
+    <string name="question_number">Question #%1$d</string>
+    <string name="correct">Correct!</string>
+    <string name="wrong_answer">Wrong\nCorrect Answer:\n %1$s</string>
+    <string name="wrong">Wrong</string>
+    <string name="percent_score">Percentage Score: %1$d\%%</string>
+    <string name="max_attendee_label">Max Attendees: %1$d</string>
+    <string name="date_chosen">%1$d-%2$d-%3$d</string>
+    <string name="time_chosen">%1$d:%2$s %3$s</string>
+    <string name="search_range">Search Range: %1$d mi.</string>
+    <string name="study_group_address">%1$s\n%2$s, %3$s</string>
+    <string name="study_group_date_time">%1$s,\n%2$s</string>
+    <string name="study_group_max_attendee_count">Max Attendees:\n%1$d</string>
+    <string name="study_group_creator_username">Created By:\n%1$s</string>
+    <string name="flashcard_count">%1$d Cards</string>
+    <string name="test_created">Test Created</string>
+    <string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="edit_message">Edit Message</string>
+    <string name="delete_message">Delete Message</string>
+    <string name="save_question_edit">Save Question Edit</string>
+    <string name="enter_account_email">Enter Account Email</string>
+    <string name="googlepay_button_content_description">Google Pay</string>
+    <string name="buy_with_googlepay_button_content_description">Buy with Google Pay</string>
+    <string name="take_test">Take Test</string>
+    <string name="edit_flashcard_test">Edit Test</string>
+    <string name="delete_test">Delete Test</string>
+    <string name="create_forum_channel">Create Forum Channel</string>
+    <string name="enter_channel_name">Enter Channel Name</string>
+    <string name="search">Search</string>
+    <string name="message_count">Messages Sent: %1$d</string>
+    <string-array name="subjectList">
+        <item>Please Select a Subject</item>
+        <item>Art</item>
+        <item>Business Studies</item>
+        <item>Civics</item>
+        <item>Computer Science</item>
+        <item>French</item>
+        <item>Geography</item>
+        <item>Government</item>
+        <item>History</item>
+        <item>Mathematics</item>
+        <item>Music</item>
+        <item>Science</item>
+        <item>Spanish</item>
+    </string-array>
+    <string name="title_activity_test_layout">test_layout</string>
+    <string name="fifty_flashcards">50 Flashcards</string>
+    <string name="twenty_five_flashcards">25 Flashcards</string>
+    <string name="password_short"><font size="15">Password must be at least 6 characters.</font></string>
+    <string name="forgot_password_login">Forgot Password?</string>
+</resources>

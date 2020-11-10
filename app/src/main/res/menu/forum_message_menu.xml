@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/edit_forum_message"
+        android:title="@string/edit_message"
+        android:icon="@drawable/ic_edit_black_24dp"/>
+
+    <item android:id="@+id/delete_forum_message"
+        android:title="@string/delete_message"
+        android:icon="@drawable/ic_delete_black_24dp"/>
+
+</menu>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "121301055869",
+    "firebase_url": "https://study-group-fe4e6.firebaseio.com",
+    "project_id": "study-group-fe4e6",
+    "storage_bucket": "study-group-fe4e6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:121301055869:android:90b724a1142e84d1",
+        "android_client_info": {
+          "package_name": "com.fullsail.christopherfortune.studygroup"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "121301055869-79j58k4mbp3pm01qs6p2gpcslj28bgru.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.fullsail.christopherfortune.studygroup",
+            "certificate_hash": "ec5925612050529ee3fdd5c02abe899a2ed3a84c"
+          }
+        },
+        {
+          "client_id": "121301055869-pos8bgulu218g8u6061n1niiasn26ilm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCvpcfnOnuzPk_JmxPYoqXC2MK4h6dyYzc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "121301055869-pos8bgulu218g8u6061n1niiasn26ilm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

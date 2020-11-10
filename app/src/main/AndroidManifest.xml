@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.fullsail.christopherfortune.studytopia">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="com.android.vending.BILLING" />
+    <uses-permission
+        android:name="android.permission.READ_PHONE_STATE"
+        tools:node="remove" />
+    <uses-permission android:name="android.permission.READ_CALENDAR" />
+    <uses-permission android:name="android.permission.WRITE_CALENDAR" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+
+    <application
+        android:name="com.fullsail.christopherfortune.studytopia.AppClass.StudyGroup"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+
+        <receiver android:name="com.fullsail.christopherfortune.studytopia.AlarmReceiver.AlarmReceiver" />
+
+        <activity android:name="com.fullsail.christopherfortune.studytopia.Activities.PublicFlashcardsTestsFiles.PublicFlashcardCategoryListActivity.PublicFlashcardsCategoryListActivity"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name="com.fullsail.christopherfortune.studytopia.Activities.StudyGroupFiles.StudyGroupsJoinedListActivity.StudyGroupsJoinedListActivity"
+            android:screenOrientation="portrait"/>
+
+        <activity
+            android:name="com.fullsail.christopherfortune.studytopia.Activities.ForumsFiles.ArchivedTOTDMessagesActivity.ArchivedTOTDMessagesActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.fullsail.christopherfortune.studytopia.Activities.ForumsFiles.TopicOfTheDayMessagesActivity.TopicOfTheDayActivityMessages"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.fullsail.christopherfortune.studytopia.Activities.ForumsFiles.ForumChannelMessagesActivity.ForumChannelMessagesActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.fullsail.christopherfortune.studytopia.Activities.ForumsFiles.ForumSubjectChannelsActivity.ForumSubjectChannelActivity"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@xml/searchable" />
+        </activity>
+
+        <activity
+            android:name="com.fullsail.christopherfortune.studytopia.Activities.LeaderboardFiles.StudyGroupLeaderboardActivity.StudyGroupLeaderboardActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.fullsail.christopherfortune.studytopia.Activities.LeaderboardFiles.FlaschcardTestLeaderboard.FlashcardTestLeaderboardActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.fullsail.christopherfortune.studytopia.Activities.StudyGroupFiles.StudyGroupFlashcardTestActivity.StudyGroupFlashcardTestActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.fullsail.christopherfortune.studytopia.Activities.PublicFlashcardsTestsFiles.TakePublicFlashcardTestActivity.TakePublicFlashcardTestActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.fullsail.christopherfortune.studytopia.Activities.StudyGroupFiles.StdyGrpFlashcardTestQuestionsActivity.StdyGrpFlashcardTestQuestionsActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.fullsail.christopherfortune.studytopia.Activities.StudyGroupFiles.StudyGroupFlascardTestCreationActivity.StudyGroupFlashcardTestCreationActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.fullsail.christopherfortune.studytopia.Activities.PastFiles.PastStudyGroupDetailsActivity.PastStudyGroupDetailsActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.fullsail.christopherfortune.studytopia.Activities.PastFiles.PastTestResultsActivity.PastTestResultsActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.fullsail.christopherfortune.studytopia.Activities.StudyGroupFiles.StudyGroupDetailsActivity.StudyGroupDetailsActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.fullsail.christopherfortune.studytopia.Activities.StudyGroupFiles.CreateStudyGroupActivity.StudyGroupCreationActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.fullsail.christopherfortune.studytopia.Activities.FlashcardTestFiles.FlaschardQuestionListActivity.FlashcardQuestionListActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.fullsail.christopherfortune.studytopia.Activities.FlashcardTestFiles.TakeFlashcardTestActivity.TakeFlashcardTestActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.fullsail.christopherfortune.studytopia.Activities.FlashcardTestFiles.FlashcardTestCreationActivity.FlashcardTestCreationActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.fullsail.christopherfortune.studytopia.Activities.FlashcardTestFiles.FlashcardTestSubjectListActivity.FlashcardTestSubjectListActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.fullsail.christopherfortune.studytopia.Activities.ForumsFiles.ForumsSubjectListActivity.ForumsSubjectListActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.fullsail.christopherfortune.studytopia.Activities.ForumsFiles.TopicOfTheDayActivity.TopicOfTheDayActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.fullsail.christopherfortune.studytopia.Activities.StudyGroupFiles.StudyGroupActivity.StudyGroupActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.fullsail.christopherfortune.studytopia.Activities.StudyGroupFiles.StudyGroupMapActivity.StudyGroupMapActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.fullsail.christopherfortune.studytopia.Activities.PastFiles.PastFlashcardTestsActivity.PastFlashcardTestsActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.fullsail.christopherfortune.studytopia.Activities.PastFiles.PastStudyGroupsActivity.PastStudyGroupsActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.fullsail.christopherfortune.studytopia.Activities.UserProfileActivity.UserProfileActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.fullsail.christopherfortune.studytopia.Activities.PublicFlashcardsTestsFiles.PublicFlashcardsActivity.PublicFlashcardsActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.fullsail.christopherfortune.studytopia.Activities.LoginActivity.LoginSignupActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.DarkActionBar" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyCvpcfnOnuzPk_JmxPYoqXC2MK4h6dyYzc" />
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-9270288418315688~5437237048" />
+
+        <meta-data
+            android:name="com.google.android.gms.wallet.api.enabled"
+            android:value="true" />
+
+    </application>
+
+</manifest>

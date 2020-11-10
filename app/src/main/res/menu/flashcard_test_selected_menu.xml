@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/take_test_selected"
+        android:title="@string/take_test"/>
+
+    <item android:id="@+id/edit_flashcard_test"
+        android:title="@string/edit_flashcard_test"/>
+
+    <item android:id="@+id/delete_flashcard_test"
+        android:title="@string/delete_test"/>
+</menu>
